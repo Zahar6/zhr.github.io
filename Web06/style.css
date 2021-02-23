@@ -1,0 +1,174 @@
+@import url ('https://fonts.googleapis.com/css2? family = Lexend + Mega & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, main{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.first{
+    margin-top: 0px;
+    height: 100%;
+    background: url('https://wallpaperaccess.com/full/1388201.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.second{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    -ms-align-itens: center;
+    align-items: center;
+}
+
+.first a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    color: #fff;
+}
+
+
+.text1{
+    font-family: 'Lexend Mega', sans-serif;
+    color: #fff;
+}
+
+.text2{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.text3{
+    font-family: 'Heebo', sans-serif;
+    color: #fff;
+}
+
+.text-conteiner {
+    width: 40%;
+    font-size: 40px;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.second{
+    margin-top: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+}
+
+.gallery-container{
+    width: 60%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.gallery-header{
+    border: 6px solid black;
+    border-radius: 50px 0px 50px 0px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Days One', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+
+.gallery-p{
+    display: block;
+    font-family: 'Six Caps', sans-serif;
+    margin-left: 20px;
+    /* margin-right: 250px; */
+    font-size: 30px;
+}
+
+.img-container{
+    width: 100%;
+    display: flex;
+    margin-left: 500px;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+}
+
+.img1{
+    width: 55%;
+    /* margin-bottom: 40%; */
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px 1px rgb(o 0 0 / 30%);
+}
+
+.wrapper{
+    margin-left: 20px;
+}
+
+.img2{
+    margin-bottom: 20px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px 1px rgb(o 0 0 / 30%);
+}
+
+.last-container{
+    display: flex;
+    justify-content: center;
+    -ms-align-items:center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 300px;
+    padding: 0 25%;
+    background-image: url('https://lh3.googleusercontent.com/proxy/m-OAbYjQgvZIftIb8gvWr65omq-xJLwFsvtxJ3odrO6px8fjoH_7QOPND5Lo60sPuh70NbpaKJXM-MSX317gylPQ4W78WeM');
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: coveer;
+    font-family: Roboto; 
+}
+
+.header {
+	color:rgb(0, 0, 0);
+}
+
+.txt {
+    text-align: justify;
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+    text-align: justify;
+}   
